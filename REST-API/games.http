@@ -1,0 +1,31 @@
+GET http://localhost:5187/games
+
+###
+GET http://localhost:5187/games/1
+
+###
+POST http://localhost:5187/games
+Content-Type: application/json
+
+{
+    "name": "Elden Ring",
+    "genre": "Action",
+    "genreID": 1,
+    "price": 59.99,
+    "releaseDate": "2022-02-25"
+}
+
+###
+PUT http://localhost:5187/games/1
+Content-Type: application/json
+
+{
+    "name": "Elden Ring - Updated",
+    "genre": "Action",
+    "genreID": 1,
+    "price": 29.99,
+    "releaseDate": "2022-02-25"
+}
+
+###
+DELETE http://localhost:5187/games/1

@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/Backend/">
+    <Project Path="Backend/GameStore.api/GameStore.api.csproj" />
+  </Folder>
+</Solution>

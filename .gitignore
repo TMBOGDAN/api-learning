@@ -1,0 +1,25 @@
+# .NET build output and IDE files
+**/bin/
+**/obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Local SQLite databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+
+# OS files
+.DS_Store
+Thumbs.db
