@@ -1,6 +1,6 @@
 # API Learning
 
-A personal repository for learning different API styles using **C# and .NET 10**.
+A personal repository for learning different API styles using **C# and .NET**.
 
 Each project includes practical examples and study notes.
 
@@ -9,12 +9,13 @@ Each project includes practical examples and study notes.
 | Project | Description |
 |---------|-------------|
 | [REST API](REST-API/) | GameStore – CRUD operations, HTTP, DTOs, validation, Entity Framework Core, and SQLite |
+| [GraphQL API](GraphQL-API/) | OrdersGraphQLDemo - ASP.NET Core starter with Hot Chocolate dependencies; work in progress |
 
-More projects, including **GraphQL** and **gRPC**, will be added in the future.
+More projects, including **gRPC**, will be added in the future.
 
 ## Getting Started
 
-Requires **.NET 10 SDK**.
+The REST project requires **.NET 10 SDK**. The GraphQL project requires **.NET 11 SDK** (preview).
 
 ```powershell
 dotnet build REST-API/GameStore.slnx
