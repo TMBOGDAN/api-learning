@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HotChocolate.AspNetCore" Version="15.1.4" />
-    <PackageReference Include="HotChocolate.Data" Version="16.7.3" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="15.1.14" />
+    <PackageReference Include="HotChocolate.Data" Version="15.1.14" />
   </ItemGroup>
 
 </Project>
