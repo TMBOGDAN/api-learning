@@ -6,6 +6,7 @@ namespace OrdersGraphQLDemo.API.Schema.Entities
     {
         [Key] public int Id { get; set; }
         [MaxLength(200)] public string CustomerId { get; set; } = null!;
+        [MaxLength(200)] public string Name { get; set; } = null!;
 
         [MaxLength(200)] public string AddresssLine1 { get; set; } = null!;
         [MaxLength(200)] public string AddresssLine2 { get; set; } = null!;

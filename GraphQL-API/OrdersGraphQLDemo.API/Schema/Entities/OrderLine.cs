@@ -6,7 +6,7 @@ namespace OrdersGraphQLDemo.API.Schema.Entities
     {
         [Key] public int LineId { get; set; }
         [ForeignKey(nameof(Order))] public int OrderId { get; set; }
-        [ForeignKey(nameof(Product))] public int SkuId { get; set; }
+        [ForeignKey(nameof(Product))] public string SkuId { get; set; } = null!;
 
         public int Quantity { get; set; }
         public Order order { get; set; } = null!;
